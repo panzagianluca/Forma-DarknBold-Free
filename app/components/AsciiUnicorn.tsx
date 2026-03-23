@@ -8,7 +8,7 @@ const UnicornScene = dynamic(() => import("unicornstudio-react/next"), {
 
 export default function AsciiUnicorn() {
   return (
-    <div className="absolute bottom-0 left-0 right-0 h-[35vh] z-0 pointer-events-none opacity-0 animate-[fadeIn_2s_ease_0.5s_forwards]">
+    <div className="absolute bottom-0 left-0 right-0 h-[35vh] z-0 pointer-events-none">
       <UnicornScene
         projectId="sTmFbEvSZWihhi3Y1Fro"
         scale={1}
